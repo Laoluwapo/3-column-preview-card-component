@@ -8,8 +8,91 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    overflow: hidden;
+    border-radius: .8rem;
+    max-width: 327px;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+.car-icon {
+    margin-bottom: 3.5rem;
+}
+
+.car-heading, .car-text {
+    margin-bottom: 2.5rem;
+}
+
+.car-heading {
+    font-family: 'Big Shoulders Display', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.car-text {
+    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+.sedans, .suvs, .luxury {
+    color: #FFF;
+    padding: 4rem;
+}
+
+.sedans {
+    background: #E28625;
+}
+
+.suvs {
+    background: #006971;
+}
+
+.luxury {
+    background: #004140;
+}
+
+.btn {
+    border: none;
+    border-radius: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
+    outline: none;
+    padding: 1.1rem 3.1rem;
+    transition: all .2s ease-in;
+}
+
+.btn:hover {
+    background: transparent;
+    color: #FFF;
+    border: .2rem solid #FFF;
+}
+
+.btn--sedans {
+    color: #E28625;
+}
+
+.btn--suvs {
+    color: #006971;
+}
+
+.btn--luxury {
+    color: #004140;
+}
+
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
 }
     
 .attribution a { 
