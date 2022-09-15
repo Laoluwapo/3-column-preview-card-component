@@ -47,7 +47,7 @@ body {
 
 .sedans, .suvs, .luxury {
     color: #FFF;
-    padding: 4rem;
+    padding: 4.8rem;
 }
 
 .sedans {
@@ -77,7 +77,7 @@ body {
 .btn:hover {
     background: transparent;
     color: #FFF;
-    border: .2rem solid #FFF;
+    outline: .2rem solid #FFF;
 }
 
 .btn--sedans {
